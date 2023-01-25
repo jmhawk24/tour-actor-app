@@ -1,0 +1,10 @@
+@startuml
+participant Homepage as HP
+participant "Full Tour View" as FTV
+participant "Single Week View" as SWV
+
+HP -> FTV: Get full tour view
+FTV -> SWV: Select single week
+SWV -> SWV: show tour reports, photos
+
+@enduml

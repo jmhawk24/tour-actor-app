@@ -18,8 +18,8 @@ application {
 }
 
 kotlin {
-    java {
-
+    jvmToolchain {
+        languageVersion.set(JavaLanguageVersion.of("11"))
     }
 }
 
